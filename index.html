@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <link rel="Script" type="text.js" href="./assets/js/script.js" >
+    <title> Day Scheduler</title>
+</head>
+    
+
+<body>
+    <p> 9am
+        <button id="eventSlot" class="open-button" onclick="openForm()">Add Event</button>
+    </p>
+
+    <div class="form-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+            <h1>Add Event</h1>
+
+            <label for="Event"><b>Event</b></label>
+            <input type="text" placeholder="Enter Event" name="Event">
+
+            <button type="submit" class="btn">Submit</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
