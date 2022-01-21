@@ -24,3 +24,5 @@ WHEN I refresh the page
 THEN the saved events persist
 ```
 https://github.com/Lpw08/daysched.git
+
+https://lpw08.github.io/daysched/
